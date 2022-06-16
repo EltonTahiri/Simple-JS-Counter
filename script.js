@@ -4,7 +4,7 @@ let number = document.querySelector("#number");
 document.getElementById('decrease').onclick = function (){
     count--;
     document.getElementById('number').innerHTML = count
-    number.style.color = "darkred"
+    number.style.color = "red";
 }
 
 document.getElementById('increase').onclick = function () {
